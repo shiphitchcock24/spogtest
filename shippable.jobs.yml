@@ -1,0 +1,7 @@
+jobs:
+  - name: allpl-manifestN1
+    type: manifest
+    steps:
+      - IN: image1
+      - IN: triggertestS1
+      - TASK: managed
