@@ -2,6 +2,6 @@ jobs:
   - name: allpl-manifestN1
     type: manifest
     steps:
-      - IN: "spogtest1 test123433"
+      - IN: spogtest1 
       - IN: triggertestS1
       - TASK: managed
