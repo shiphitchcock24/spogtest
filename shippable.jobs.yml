@@ -1,5 +1,5 @@
 jobs:
-  - name: allpl-manifestN1
+  - name: allpl  manifestN11
     type: manifest
     steps:
       - IN: spogtest1 
