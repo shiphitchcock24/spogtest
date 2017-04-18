@@ -1,5 +1,5 @@
 resources:
-  - name: spogtest1
+  - name: spogtest1 test
     type: image
     integration: ship4-docker
     pointer:
