@@ -1,5 +1,0 @@
-triggers:
-  - name: s1 sreya
-    type: trigger
-    version:
-      counter: 63
