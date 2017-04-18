@@ -1,7 +1,0 @@
-jobs:
-  - name: allpl_manifestN11
-    type: manifest
-    steps:
-      - IN: spogtest1 
-      - IN: triggertestS1
-      - TASK: managed
