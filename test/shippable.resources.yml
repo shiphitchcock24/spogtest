@@ -27,4 +27,4 @@ resources:
   - name: ar-testtime
     type: time
     seed:
-      interval: "4 * * * *" #"*/9 * 9 9 *"
+      interval: "*/4 * * * *" #"*/9 * 9 9 *"
