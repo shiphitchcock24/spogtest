@@ -6,3 +6,10 @@ resources:
       sourceName: "shiphitchcock4/hitchcock4_sample_nodenew"
     seed:
       versionName: "latest"
+  - name: spw
+    type: image
+    integration: ship4-docker
+    pointer:
+      sourceName: "shiphitchcock4/hitchcock4_sample_nodenew"
+    seed:
+      versionName: "latest"
