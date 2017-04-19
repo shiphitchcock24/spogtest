@@ -6,10 +6,25 @@ resources:
       sourceName: "shiphitchcock4/hitchcock4_sample_nodenew"
     seed:
       versionName: "latest"
-  - name: aposyf
+      
+  - name: reporun
+    type: gitRepo
+    integration: github
+    pointer:
+      sourceName: shiphitchcock24/sample-script
+      branch: master
+      
+  - name: aposyf  
     type: image
     integration: ship4-docker
     pointer:
       sourceName: "shiphitchcock4/hitchcock4_sample_nodenew"
     seed:
       versionName: "latest"
+      
+  #TIME
+
+  - name: ar-testtime
+    type: time
+    seed:
+      interval: "4 * * * *" #"*/9 * 9 9 *"
