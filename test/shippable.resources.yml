@@ -6,7 +6,7 @@ resources:
       sourceName: "shiphitchcock4/hitchcock4_sample_nodenew"
     seed:
       versionName: "latest"
-  - name: spw
+  - name: aposyf
     type: image
     integration: ship4-docker
     pointer:
