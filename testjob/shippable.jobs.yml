@@ -5,3 +5,13 @@ jobs:
       - IN: spogtest1 
       - IN: triggertestS1
       - TASK: managed
+      
+  - name: runSHTIME
+    type: runSh
+  #  serial: true
+    steps:
+      - IN: reporun
+     # - IN:r123env
+      - IN: triggertestS1
+      - TASK:
+        - script: ./IN/reporun/gitRepo/echo.sh
