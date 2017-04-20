@@ -2,4 +2,4 @@ triggers:
   - name: s1
     type: trigger
     version:
-      counter: 63
+      counter: 60
