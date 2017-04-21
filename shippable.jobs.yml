@@ -3,5 +3,5 @@ jobs:
     type: manifest
     steps:
       - IN: imaget1
-      - IN: t1
+      - IN: triggertestS1
       - TASK: managed
