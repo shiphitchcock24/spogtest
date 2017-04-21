@@ -1,5 +1,5 @@
 triggers:
-  - name: s1
+  - name: triggertestS1sreya
     type: trigger
     version:
       counter: 60
