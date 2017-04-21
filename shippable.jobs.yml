@@ -3,5 +3,5 @@ jobs:
     type: manifest
     steps:
       - IN: spogtest2
-      - IN: triggertestS1
+      - IN: triggertestS1srey
       - TASK: managed
