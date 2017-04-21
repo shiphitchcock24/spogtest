@@ -3,7 +3,7 @@ jobs:
     type: manifest
     steps:
       - IN: spogtest1 
-      - IN: triggertestS1
+      - IN: triggertestS1sreya
       - TASK: managed
       
   - name: runSHTIME
@@ -13,6 +13,6 @@ jobs:
       - IN: reporun
      # - IN: ar-testtime
      # - IN:r123env
-      - IN: triggertestS1
+      - IN: triggertestS1sreya
       - TASK:
         - script: ./IN/reporun/gitRepo/echo.sh
