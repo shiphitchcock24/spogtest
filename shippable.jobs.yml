@@ -1,7 +1,7 @@
 jobs:
-  - name: allpl-manifestN1
+  - name: manifest1
     type: manifest
     steps:
-      - IN: spogtest2
-      - IN: triggertestS1sreya
+      - IN: imaget1
+      - IN: t1
       - TASK: managed
