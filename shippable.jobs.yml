@@ -3,7 +3,7 @@ jobs:
     type: manifest
     steps:
       - IN: imaget1
-     # - IN: deploy_img 
+      - IN: deploy_img 
    #   - IN: triggertestS1
       - IN: t1
       - TASK: managed
